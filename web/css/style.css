@@ -1,10 +1,77 @@
 body {
     font-family: Arial, sans-serif;
+    background-color: #f8f1e4;
     margin: 0;
     padding: 0;
-    background-color: #f8f1e4;
     color: #5a3e2b;
 }
+
+/*LOGIN PAGE*/
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensures the form is centered vertically */
+}
+
+.login-container {
+    background: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px; /* Adjust width as needed */
+}
+
+#loginForm {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.input-group {
+    width: 100%;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+input {
+    width: 100%; /* Reduce width to prevent overflow */
+    padding: 20px;
+    margin: 10px 0px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.error-message{
+    color: red;
+    font-size: 15px;
+    display: none;
+    margin-top: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#error-message {
+    color: red;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
 
 header {
     background-color: #4b2e1e;
